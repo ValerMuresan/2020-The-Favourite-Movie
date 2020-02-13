@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/2020-The-Favourite-Movie/static/css/main.fbc98188.chunk.css",
+    "main.js": "/2020-The-Favourite-Movie/static/js/main.78a76634.chunk.js",
+    "main.js.map": "/2020-The-Favourite-Movie/static/js/main.78a76634.chunk.js.map",
+    "runtime-main.js": "/2020-The-Favourite-Movie/static/js/runtime-main.6205e761.js",
+    "runtime-main.js.map": "/2020-The-Favourite-Movie/static/js/runtime-main.6205e761.js.map",
+    "static/js/2.21fa911d.chunk.js": "/2020-The-Favourite-Movie/static/js/2.21fa911d.chunk.js",
+    "static/js/2.21fa911d.chunk.js.map": "/2020-The-Favourite-Movie/static/js/2.21fa911d.chunk.js.map",
+    "index.html": "/2020-The-Favourite-Movie/index.html",
+    "precache-manifest.03212b29f90df042d755dccee37159c4.js": "/2020-The-Favourite-Movie/precache-manifest.03212b29f90df042d755dccee37159c4.js",
+    "service-worker.js": "/2020-The-Favourite-Movie/service-worker.js",
+    "static/css/main.fbc98188.chunk.css.map": "/2020-The-Favourite-Movie/static/css/main.fbc98188.chunk.css.map",
+    "static/js/2.21fa911d.chunk.js.LICENSE.txt": "/2020-The-Favourite-Movie/static/js/2.21fa911d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6205e761.js",
+    "static/js/2.21fa911d.chunk.js",
+    "static/css/main.fbc98188.chunk.css",
+    "static/js/main.78a76634.chunk.js"
+  ]
+}
