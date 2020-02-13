@@ -13,10 +13,10 @@ For more informations about the movie, the user will have to press `I` (infos) a
 ## Installing
 
 1. Steps for local running:
-    * Download or clone the [repository]()
+    * Download or clone the [repository](https://github.com/ValerMuresan/2020-The-Favourite-Movie.git)
     * Navigate to the root directory and run `npm install`
     * Start the app-serving with `npm start` or `yarn start` at the default port 3000
-2. View the project [live]()
+2. View the project [live](https://valermuresan.github.io/2020-The-Favourite-Movie/)
 
 
 ## Dependencies
@@ -28,6 +28,5 @@ For more informations about the movie, the user will have to press `I` (infos) a
 
 ## License
 
-+ MIT License
-
-   * Copyright (c) 2020 Valer Muresan
+MIT License <br />
+Copyright (c) 2020 Valer Muresan
