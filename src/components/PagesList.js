@@ -10,10 +10,10 @@ const PagesList = (props) => {
     }
     return (
         <div className="pages-container">
-                <ul className="pagesList">
-                    { props.initialPage > 1 ? <li className="" onClick={() => props.newPage(props.initialPage - 1)}><a href="#PreviousPage">Previous</a></li>:""}
+                <ul tabIndex="0" aria-label="List of pages" className="pagesList">
+                    { props.initialPage > 1 ? <li tabIndex="0" className="" onClick={() => props.newPage(props.initialPage - 1)}><a href="#PreviousPage">Previous</a></li>:""}
                      {pagesListLinks}
-                    { props.initialPage < props.pageNums + 1 ? <li className="" onClick={() => props.newPage(props.initialPage + 1)}><a href="#NewPage">Next</a></li>:""} 
+                    { props.initialPage < props.pageNums + 1 ? <li tabIndex="0" className="" onClick={() => props.newPage(props.initialPage + 1)}><a href="#NewPage">Next</a></li>:""} 
                 </ul>
         </div>
     )
