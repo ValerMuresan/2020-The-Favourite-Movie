@@ -12,13 +12,15 @@ const Movie = (props) => {
 		backgroundImage: "url(" + movieImg + ")"
 	}
 	return (
-        	<div className="movie-container">
-				{ props.movieImg === null ? <img className="defaultImg" src={defaultImg} alt="Default poster" style={cover} /> :
-				<img className="movieImg" src={`https://image.tmdb.org/t/p/w500${props.movieImg}`} alt="Movie poster" style={cover} /> }
-				{props.movieRating === 0 ? <div className="movieRating">Not rated</div> :
-					<div className="movieRating">Rating {props.movieRating} </div>}
-				<div className="movieYear">{props.movieYear}</div>
-				<p><a href="#Details" onClick={() => props.movieInfo(props.movieId)}><img className="detailsIcon" src={details} alt="Details icon" /></a></p>
+			<div className="movie-container"
+			     tabIndex="0"
+				 aria-label="Movie container">
+				{ props.movieImg === null ? <img className="defaultImg" tabIndex="0" aria-label="Movie without poster" src={defaultImg} alt="Default poster" style={cover} /> :
+				<img className="movieImg" tabIndex="0" aria-label="Movie poster" src={`https://image.tmdb.org/t/p/w500${props.movieImg}`} alt="Movie poster" style={cover} /> }
+				{props.movieRating === 0 ? <div tabIndex="0" aria-label="Movie not rated" className="movieRating">Not rated</div> :
+					<div tabIndex="0" aria-label="Movie rate" className="movieRating">Rating {props.movieRating} </div>}
+				<div tabIndex="0" aria-label="Released year" className="movieYear">{props.movieYear}</div>
+				<p><a href="#Details" onClick={() => props.movieInfo(props.movieId)}><img tabIndex="0" aria-label="Info button" className="detailsIcon" src={details} alt="Details icon" /></a></p>
 			</div>
     );
 }

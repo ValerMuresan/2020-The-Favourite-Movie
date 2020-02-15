@@ -7,7 +7,7 @@
 The project is a search app for the movies, created with `create-react-app`. <br />
 When the user will type a movie name and will press `enter` the app will display all <br />
 the movies from the [The Movie DB](https://www.themoviedb.org/) database, that meets the search requirements.<br />
-For more informations about the movie, the user will have to press `I` (infos) area from the movie card.
+For more informations about the movie, the user will have to press `i` (infos) area from the movie card.
 
 
 ## Installing

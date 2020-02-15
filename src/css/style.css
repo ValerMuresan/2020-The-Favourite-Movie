@@ -21,6 +21,9 @@ body {
     font-size: 1.5em;
     letter-spacing: 2px;
 }
+.search-container label, h1 {
+    outline: none;
+}
 .search-container input {
     font-size: 20px;
     border-radius: 5px;
@@ -85,6 +88,10 @@ body {
     color: #055046;
     font-weight: 600;
 }
+.movies-container .movieImg, .movieRating, .movieYear {
+    outline: none;
+}
+
 /*The details.png was downloaded from https://icons8.com/icons/set/info*/
 .detailsIcon {
     position: relative;
@@ -100,6 +107,7 @@ body {
 .detailsIcon:hover {
     background: #f0a6c8;
     color: white;
+
 }
 .defaultImg {
     width: 250px; 
@@ -141,6 +149,9 @@ body {
     margin-top: 1%;
     border-radius: 10px;
 }
+.infoImage {
+    outline: none;
+}
 .detailsContainer p {
     font-size: 1.2em;
     margin-top: 5px;
@@ -148,11 +159,17 @@ body {
     color: #055046;
     font-weight: bolder;
 }
+.detailsContainer p {
+    outline: none;
+}
 .detailsContainer .movieOverview {
     margin: 10px;
     color: #108874;
     font-weight: 500;
     font-size: 1em;
+}
+.movieOverview {
+    outline: none;
 }
 .backLink {
     font-size: 1em;
@@ -162,6 +179,9 @@ body {
     margin-left: 15px;
     margin-right: 25px;
     margin-top: 20px;
+}
+.backLink {
+    outline: none;
 }
 .backLink:hover {
     color: #f83d04;
